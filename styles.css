@@ -1,0 +1,96 @@
+body, html{
+    display: block;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+p{
+    color: gray;
+    font-size: 20px;
+}
+h4, h5, p {
+    font-family: Roboto;
+}
+h4, h5 {
+    padding: 0px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
+
+}
+.content-title{
+    text-align: center;
+    font-weight: lighter;
+    font-family: Roboto;
+}
+.language-title{
+    align-items: center;
+    font-weight: lighter;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%; 
+    margin: 0 auto;
+}
+.hero-image{
+    background-image: url("paaskefiske.png");
+    width: 100%;
+    height: 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero-title-text{
+    color: gray;
+    letter-spacing: 5px;
+    font-size: 20px;
+   
+
+}
+.hero-topbar{
+    position: relative;
+    top: 20px;
+}
+
+#progg{
+    color: gray;
+}
+.hero-logo{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+
+}
+.hero-text{
+    width:450px;
+    right: -55%;
+    position: relative;
+    font-family: Roboto;
+
+}
+.hero-title{
+    font-weight: lighter;
+    letter-spacing: 5px;
+}
+.koseprogg{
+    color: gray;
+}
+.burger-logo{
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+.burger-logo:hover{
+    cursor: pointer;
+}
+#name{
+    padding-right: 20px;
+    color: black;
+}
+#markup{
+    margin: 22%;
+}
+#css{
+    margin: 22%;
+}
+
